@@ -26,9 +26,9 @@ export default function Live2D() {
   }, [theme])
 
   function handleClick() {
-    if (JSON.parse(BLOG.WIDGET_PET_SWITCH_THEME)) {
+    /* if (JSON.parse(BLOG.WIDGET_PET_SWITCH_THEME)) {
       switchTheme()
-    }
+    } */
   }
 
   if (!showPet) {
