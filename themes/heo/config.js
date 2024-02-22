@@ -1,40 +1,41 @@
 const CONFIG = {
   HOME_BANNER_ENABLE: true,
 
-  SITE_CREATE_TIME: '2023-07-14', // 建站日期，用于计算网站运行的第几天
+  SITE_CREATE_TIME: '2024-02-14', // Website establishment date, used to calculate how many days the website has been running
 
-  // 首页顶部通知条滚动内容，如不需要可以留空 []
+  // The scrolling content of the notification bar at the top of the home page can be left blank if not needed. []
   NOTICE_BAR: [
-    { title: 'Welcome to my Notion based Knowledge Collection and Shareing Site', url: 'https://notion.51sec.org' },
-    { title: 'Visit Blog for More', url: 'https://blog.51sec.org' }
+    { title: 'Canada extends foreign home buyer ban until 2027!', url: 'https://https://www.cicnews.com/2024/02/canada-extends-foreign-home-buyer-ban-until-2027-0242824.html#gs.5fal47' },
+    { title: 'Bank of Canada today held its target for the overnight rate at 5%', url: 'https://www.bankofcanada.ca/2024/01/mpr-2024-01-24/' }
   ],
 
-  // 英雄区(首页顶部大卡)
-  HERO_TITLE_1: 'Searching',
-  HERO_TITLE_2: 'Collecting',
-  HERO_TITLE_3: '51SEC.ORG',
-  HERO_TITLE_4: 'Sharing',
-  HERO_TITLE_5: 'Creating',
-  HERO_TITLE_LINK: 'https://51sec.org',
+  // Hero area (big card at the top of the home page)
+  HERO_TITLE_1: 'Discovering',
+  HERO_TITLE_2: 'Spaces',
+  HERO_TITLE_3: 'Toronto Real Estate',
+  HERO_TITLE_4: 'Designing',
+  HERO_TITLE_5: 'Lifestyles',
+  HERO_TITLE_LINK: 'https://google.ca',
 
-  // 英雄区显示三个置顶分类
-  HERO_CATEGORY_1: { title: 'Tools', url: '/tag/Tools' },
-  HERO_CATEGORY_2: { title: 'Sites', url: '/tag/Sites' },
-  HERO_CATEGORY_3: { title: 'Tutorials', url: '/tag/Text' },
-
-  // 右侧个人资料卡牌欢迎语，点击可自动切换
+  // The hero area displays three top categories
+   HERO_CATEGORY_1: { title: 'Discover', url: '/tag/Tools' },
+   HERO_CATEGORY_2: { title: 'Engage', url: '/tag/Sites' },
+   HERO_CATEGORY_3: { title: 'Learn', url: '/tag/Text' },
+ 
+  // The welcome message on the profile card on the right, click to automatically switch
   INFOCARD_GREETINGS: [
-    'Hi! This is',
-    '🔍 分享与热心帮助',
-    '🤝 专修交互与设计',
-    '🏃 脚踏实地行动派',
-    '🏠 智能家居小能手',
-    '🤖️ 数码科技爱好者',
-    '🧱 团队小组发动机'
-  ],
-  INFO_CARD_URL: 'https://github.com/johnnynetsec/NotionNext', // 个人资料底部按钮链接
-
-  // 用户技能图标
+   '🔍 Explore new areas',
+   '🤝 Buying & selling tips',
+   '🚀 Market insights',
+   '🏠 Home improvement',
+   '🌐 Digital realty trends',
+   '🧱 Community connect',
+   '📈 Investment strategies',
+   ],  
+   
+  INFO_CARD_URL: 'https://google.ca', // Github icon button link
+ 
+  // User skill icon
   GROUP_ICONS: [
     {
       title_1: 'AfterEffect',
@@ -94,13 +95,13 @@ const CONFIG = {
     }
   ],
 
-  SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
-  SOCIAL_CARD_TITLE_1: 'YouTube Channel',
-  SOCIAL_CARD_TITLE_2: 'Join NetSec Channel for More',
-  SOCIAL_CARD_TITLE_3: 'Click to john',
+  SOCIAL_CARD: true, // Whether to display the right side, click the Join Community button
+  SOCIAL_CARD_TITLE_1: '@realtorTO',
+  SOCIAL_CARD_TITLE_2: 'More Real Estate Tips and Tricks!',
+  SOCIAL_CARD_TITLE_3: 'Join Now!',
   SOCIAL_CARD_URL: 'https://www.youtube.com/channel/UCPzmia0KbQlmhYuh5r7kWtA?view_as=subscriber',
 
-  // *****  以下配置无效，只是预留开发 ****
+  // *****  The following configuration is invalid and is only reserved for development ****
   // 菜单配置
   MENU_INDEX: true, // 显示首页
   MENU_CATEGORY: true, // 显示分类

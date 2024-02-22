@@ -96,10 +96,10 @@ function TagsGroupBar() {
                 {groupIcons?.map((g, index) => {
                   return (<div key={index} className="tags-group-icon-pair ml-6 select-none">
                         <div style={{ background: g.color_1 }} className={'tags-group-icon w-28 h-28 rounded-3xl flex items-center justify-center text-white text-lg font-bold shadow-md'}>
-                            <LazyImage priority={true} src={g.img_1} title={g.title_1} className='w-2/3 hidden xl:block' />
+                            <LazyImage priority={true} src={g.img_1} title={g.title_1} className='w-full h-full object-cover rounded-3xl hidden xl:block' />
                         </div>
                         <div style={{ background: g.color_2 }} className={'tags-group-icon  mt-5 w-28 h-28 rounded-3xl flex items-center justify-center text-white text-lg font-bold shadow-md'}>
-                            <LazyImage priority={true} src={g.img_2} title={g.title_2} className='w-2/3 hidden xl:block' />
+                            <LazyImage priority={true} src={g.img_2} title={g.title_2} className='w-full h-full object-cover rounded-3xl hidden xl:block' />
                         </div>
                     </div>)
                 })}
@@ -228,7 +228,7 @@ function TodayCard({ cRef }) {
                     <div id='more' className='select-none'>More Recommended</div>
                 </div>
             </div>
-            <div id='today-card-cover' className={`${isCoverUp ? '' : ' pointer-events-none'} cursor-pointer today-card-cover absolute w-full h-full top-0`} style={{ background: "url('https://bu.dusays.com/2023/03/12/640dcd3a1b146.png') no-repeat center /cover" }}></div>
+            <div id='today-card-cover' className={`${isCoverUp ? '' : ' pointer-events-none'} cursor-pointer today-card-cover absolute w-full h-full top-0`} style={{ background: "url('https://www.bocadolobo.com/en/inspiration-and-ideas/wp-content/uploads/2021/07/Interior-Design-Ideas-For-Every-Room-Of-Your-Modern-Home-ft.jpg') no-repeat center /cover" }}></div> {/* Designing Lifestyles pics */}
         </div>
     </div>
 }
