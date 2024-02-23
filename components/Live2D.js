@@ -5,7 +5,7 @@ import { loadExternalResource } from '@/lib/utils'
 import { useEffect } from 'react'
 
 export default function Live2D() {
-  const { theme, switchTheme } = useGlobal()
+  const { theme } = useGlobal()
   const showPet = JSON.parse(BLOG.WIDGET_PET)
 
   useEffect(() => {
