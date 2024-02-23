@@ -5,7 +5,7 @@ import { loadExternalResource } from '@/lib/utils'
 import { useEffect } from 'react'
 
 export default function Live2D() {
-  const { theme } = useGlobal()
+  const { theme, switchTheme } = useGlobal()
   const showPet = JSON.parse(BLOG.WIDGET_PET)
 
   useEffect(() => {
@@ -26,9 +26,9 @@ export default function Live2D() {
   }, [theme])
 
   function handleClick() {
-    /* if (JSON.parse(BLOG.WIDGET_PET_SWITCH_THEME)) {
+    if (JSON.parse(BLOG.WIDGET_PET_SWITCH_THEME)) {
       switchTheme()
-    } */
+    }
   }
 
   if (!showPet) {
