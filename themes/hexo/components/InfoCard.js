@@ -24,8 +24,9 @@ export function InfoCard(props) {
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <LazyImage src={siteInfo?.icon} className='rounded-full' width={120} alt={BLOG.AUTHOR} />
             </div>
-            <div className='font-medium text-center text-xl pb-4'>{BLOG.AUTHOR}</div>
-            <div className='text-sm text-center'>{BLOG.BIO}</div>
+            <div className='font-medium text-center text-xl pb-4'><b>{BLOG.AUTHOR}</b></div>
+            <div className='text-sm text-center'><b>{BLOG.BIO}</b></div>
+            <br />
             <MenuGroupCard {...props} />
             <SocialButton />
         </Card>
