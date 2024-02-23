@@ -26,7 +26,7 @@ const Hero = props => {
     if (!typed && window && document.getElementById('typed')) {
       changeType(
         new Typed('#typed', {
-          strings: BLOG.GREETING_WORDS.split(','),
+          strings: BLOG.GREETING_WORDS.split('/'),
           typeSpeed: 200,
           backSpeed: 100,
           backDelay: 400,
